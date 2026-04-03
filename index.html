@@ -54,7 +54,7 @@ function initAudio(){
 muteBtn.addEventListener('click',()=>{
   muted=!muted;
   if(audioCtx)masterGain.gain.value=muted?0:0.55;
-  muteBtn.textContent=muted?'♪ OFF':'♪ ON';
+  muteBtn.textContent=muted?'♪ ON':'♪ OFF';
 });
 
 // Tone primitive
